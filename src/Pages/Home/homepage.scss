@@ -1,0 +1,39 @@
+.homePage{
+    background: rgba(249, 252, 251, 0.589);
+    .children{
+        display: flex;
+        //flex-direction: row;
+        //position: relative;
+        padding-top: 50px;
+        .info_container{
+            margin: 10px 40px;
+
+            .widgets{   
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                gap: 40px;
+            }
+            .graphical_container{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 5px;
+                margin: 10px 0;
+            }
+            .listContainer{
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                padding: 20px;
+                margin: 20px;
+
+                .listTitle{ 
+                    font-weight: 500;
+                    color: gray;
+                    margin-bottom: 15px;}
+            }
+            
+        }
+        
+    }
+}
